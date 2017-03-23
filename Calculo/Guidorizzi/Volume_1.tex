@@ -563,32 +563,19 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 			$(x^2+x+1)(x-1)$
 	\end{enumerate}
 	\item % S. 1.2 - Ex. 20
+		Podemos usar os resultados do exercício 19.
 		\begin{enumerate}
 		\item % S. 1.2 - Ex. 20 - a
-			$x^3 - 1 > 0$\\
-			$x^3 > 1 \Rightarrow x > 1$
+			$x^3 - 1 > 0 $\\
+			$x^3 -1 = (x^2+x+1)(x-1) > 0$\\
+			Devemos ter ambos os fatores de $(x^2+x+1)(x-1)$ com mesmo sinal:\\
+			Se $x-1 > 0$, $x > 1$ e $x^2+x+1 >0$, logo $x > 1$ é solução da inequação.\\
+			Caso $x - 1 < 0$, temos $x < 1$ e nesse caso $x^2 + x + 1 > 0$, o que nos dá $(x^2+x+1)(x-1) < 0$, que não é solução da inequação.\\
+			A solução da inequação é $x > 1$.
 		\item  % S. 1.2 - Ex. 20 - b
 			$x^3 + 6x^2 + 11x + 6 < 0$
+			$(x+1)(x+2)(x+3) < 0$
 			\\
-			\\
-			\begin{tabular}{ l | r r r r r }
-			  -1 & 1 & 6 & 11 & 6 \\
-				\hline
-			    & 1 & 5 & 6 & 0 \\
-			\end{tabular}		
-			\\
-			\\
-			$(x + 1)(x^2 + 5x + 6) < 0$
-			\\
-			\\
-			\begin{tabular}{ l | r r r r }
-			  -2 & 1 & 5 & 6 \\
-				\hline
-			    & 1 & 3 & 0 \\
-			\end{tabular}	
-			\\
-			\\
-			$(x + 1)(x + 2)(x + 3) < 0$\\
 			Basta estudarmos o sinal da última inequação, onde deveremos ter um número ímpar de elementos do produto negativos:\\
 			Com $x < -3$, $x < -2$ e $x < -1$ temos $x < -3$.\\
 			
@@ -606,7 +593,11 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 
 			É possível, e até mais prático, estudar os sinais acima graficamente.
 		\item  % S. 1.2 - Ex. 20 - c
-			$x^3 + 3x - 4x - 12 \geq 0 \Rightarrow x(x - 1)(x + 3) < 0$ \\
+			$x^3 + 3x - 4x - 12 \geq 0$ \\
+			$ (x-2)(x+2)(x+3) \geq 0$\\
+		\item  % S. 1.2 - Ex. 20 - d
+			$x^3 + 2x^2 - 3x < 0$\\
+			$x(x - 1)(x + 3) < 0$ \\
 			
 			Estudamos a seguir o sinal da inequação $x(x - 1)(x + 3) < 0$, devemos ter um número ímpoar de elementos do produto negativos: \\
 			Com $x < 0$, $x - 1 < 0 \Rightarrow x < 1$ e $x + 3 < 0 \Rightarrow x < -3$, temos $x < -3$.\\
@@ -620,8 +611,7 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 			$x + 3 < 0$ nos dá $x < -3$ e devemos ter $x > 0$ e $x > 1$, mas não é possível tal combinação.
 			\end{list}
 			As solução da inequação é $x < -3$ ou $0 < x < 1$.
-		\item  % S. 1.2 - Ex. 20 - d
-			$x^3 + 2x^2 - 3x < 0$
+
 		\end{enumerate}
 	\item
 	Falsa. Para explicar basta darmos um contra-exemplo: 
