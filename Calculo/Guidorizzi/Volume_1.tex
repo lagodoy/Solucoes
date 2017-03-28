@@ -563,7 +563,7 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 			$(x^2+x+1)(x-1)$
 	\end{enumerate}
 	\item % S. 1.2 - Ex. 20
-		Podemos usar os resultados do exercício 19.
+		Podemos usar os resultados do exercício 19 neste exercício.
 		\begin{enumerate}
 		\item % S. 1.2 - Ex. 20 - a
 			$x^3 - 1 > 0 $\\
@@ -577,13 +577,12 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 			$(x+1)(x+2)(x+3) < 0$
 			\\
 			Basta estudarmos o sinal da última inequação, onde deveremos ter um número ímpar de elementos do produto negativos:\\
-			Com $x < -3$, $x < -2$ e $x < -1$ temos $x < -3$.\\
-			
-			Nos casos com apenas um elemento negativo:\\
+			Com $x < -3$, $x < -2$ e $x < -1$ temos a solução $x < -3$.\\
+			Nos casos com apenas um elemento negativo:
 			\begin{list}{•}
 			\item
 			$(x + 1) < 0$ nos dá $x < -1$ e devemos ter $x > -2, x > -3$, o que nos dá $x > -2$.
-			\item
+			\item\item
 			$(x + 2) < 0$ nos dá $x < -2$ e devemos ter $x > -1, x > -3$, o que nao é possível.
 			\item
 			$(x + 3) < 0$ nos dá $x < -3$ e devemos ter $x > -1, x > -2$, mas não existe tal combinação.
@@ -594,11 +593,26 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 			É possível, e até mais prático, estudar os sinais acima graficamente.
 		\item  % S. 1.2 - Ex. 20 - c
 			$x^3 + 3x - 4x - 12 \geq 0$ \\
+			Fatorando o polinômio temos:\\
 			$ (x-2)(x+2)(x+3) \geq 0$\\
+			Estudando o sinal da inequação, devemos ter nenhum ou dois fatores do produto negativos:\\
+			Caso tenhamos nenhum, devemos ter:\\
+			$ x-2 \geq 0 $, $ x+2 \geq 0 $ e $x+3 \geq 0$ o que resulta em, respectivamente, $ x \geq 2 $, $ x \geq -2 $ e $x \geq -3$. Logo devemos ter $x \geq 2$ para obtermos $x^3 + 3x - 4x - 12 \geq 0$ nesse caso.\\
+			Com dois fatores negativos:
+			\begin{list}{•}
+			\item
+			$x-2 \leq 0$ e $x+2 \leq 0$ resultam em, respectivamente, $x \leq 2$ e $x \leq -2$. Devemos ter $x \geq -3$, que resulta na solução: \\
+			$-3 \leq x \leq -2$
+			\item\item
+			$ x-2 \leq 0$ e $x+3 \leq 0$ resultam em, respectivamente, $x \leq 2$ e $x \leq -3$. Devemos ter $x+2 \geq 0 \Rightarrow x \geq -2$, que não é possível.
+			\item
+			$ x+2 \leq 0$ e $x+3 \leq 0$ resultam em, respectivamente, $x \leq -2$ e $x \leq -3$. Devemos ter $x-2 \geq 0 \Rightarrow x \geq 2$, que não é possível.
+			\end{list}
+			As solução da inequação é $x \geq 2$ ou $-3 \leq x \leq -2$.
 		\item  % S. 1.2 - Ex. 20 - d
 			$x^3 + 2x^2 - 3x < 0$\\
+			Fatorando o polinômio temos:\\
 			$x(x - 1)(x + 3) < 0$ \\
-			
 			Estudamos a seguir o sinal da inequação $x(x - 1)(x + 3) < 0$, devemos ter um número ímpoar de elementos do produto negativos: \\
 			Com $x < 0$, $x - 1 < 0 \Rightarrow x < 1$ e $x + 3 < 0 \Rightarrow x < -3$, temos $x < -3$.\\
 			Nos casos com apenas um elemento negativo:
@@ -610,10 +624,10 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 			\item
 			$x + 3 < 0$ nos dá $x < -3$ e devemos ter $x > 0$ e $x > 1$, mas não é possível tal combinação.
 			\end{list}
-			As solução da inequação é $x < -3$ ou $0 < x < 1$.
+			A solução da inequação é $x < -3$ ou $0 < x < 1$.
 
 		\end{enumerate}
-	\item
+	\item % S. 1.2 - Ex. 21
 	Falsa. Para explicar basta darmos um contra-exemplo: 
 	\paragraph{}Se $x = -1$ e $y = 0$, temos $x < y$, mas não $x^2 < y^2$, pois daí teríamos $1 < 0$, o que contradiz nossa proposição.
 	\item 

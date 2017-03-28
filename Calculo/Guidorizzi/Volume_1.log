@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.14)  23 MAR 2017 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.14)  28 MAR 2017 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -858,94 +858,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 553--564
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 576--581
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 583.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 582--584
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 584.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 584.
-
-Underfull \hbox (badness 10000) in paragraph at lines 596--599
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 599--601
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 631--637
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 650--656
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 583.
+ [19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 645--651
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--681
+Underfull \hbox (badness 10000) in paragraph at lines 664--670
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--681
+Underfull \hbox (badness 10000) in paragraph at lines 670--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--681
+Underfull \hbox (badness 10000) in paragraph at lines 670--695
 
  []
 
-[21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 732--737
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--695
+
+ []
+
+[21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \hbox (badness 10000) in paragraph at lines 746--751
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 757--767
+Underfull \hbox (badness 10000) in paragraph at lines 771--781
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--767
+Underfull \hbox (badness 10000) in paragraph at lines 771--781
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 769--779
+Underfull \hbox (badness 10000) in paragraph at lines 783--793
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
-Underfull \hbox (badness 10000) in paragraph at lines 788--797
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 802--811
 
  []
 
 [25] (./Volume_1.aux) ) 
 Here is how much of TeX's memory you used:
- 3584 strings out of 494888
- 49414 string characters out of 6179127
+ 3585 strings out of 494888
+ 49422 string characters out of 6179127
  118630 words of memory out of 5000000
- 6821 multiletter control sequences out of 15000+600000
+ 6822 multiletter control sequences out of 15000+600000
  12462 words of font info for 48 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 51i,12n,27p,394b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,12n,27p,394b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
@@ -959,7 +940,7 @@ type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
-Output written on Volume_1.pdf (25 pages, 167367 bytes).
+Output written on Volume_1.pdf (25 pages, 168007 bytes).
 PDF statistics:
  137 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
