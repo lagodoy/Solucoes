@@ -658,15 +658,15 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 	
 	Finalmente pela lei da transitividade temos $x^3 < 0$ e $0 < y^3 \Rightarrow x^3 < y^3$.
 	
-	\item
+	\item % S. 1.2 - Ex. 23
 		\begin{enumerate}
-			\item 
+			\item % S. 1.2 - Ex. 23 - a
 			$x.0 = x(0)$, (A1)\\
 			$ x(0) = x(z + (-z))$, (A4)\\ 
 			$x(z + (-z)) = xz - xz $, (D)\\
 			$xz - xz = xz + (-xz) $, (A1)\\ 
-			Finalmente temos: $xz + (-xz) = 0$, (A4).\\
-			\item
+			Finalmente temos: $xz + (-xz) = 0$, (A4).
+			\item % S. 1.2 - Ex. 23 - b
 			Para o primeiro caso:\\
 			$x + (-x) = 0$, (A4)\\							
 			$y(x + (-x)) = y.0$, combinando (O2) com (OM)\\
@@ -690,8 +690,9 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 			$(-y)(-x) + (-y)x = 0$, (D) e (a) acima\\
 			$(-x)(-y) + x(-y)$, (M2)\\
 			$(-x)(-y) + x(-y) + xy = xy$, combinando (O2) com (OA)\\
-			$(-x)(-y) = xy$, (A4)\\
-			\item
+			$(-x)(-y) = xy$, (A4)
+			\item % S. 1.2 - Ex. 23 - c
+			$x^2 \geq 0$\\
 			$x \leq 0$ ou $0 \leq x$, (O4)\\
 			Se $x \leq 0$:\\
 			$x - (-x) \leq 0 + (-x)$, (OA)\\
@@ -703,10 +704,46 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 			$xx \geq x.0$, (OM)\\
 			Considerando o item (a) acima, temos:\\
 			$x^2 \geq 0$.			
-			\item
+			\item % S. 1.2 - Ex. 23 - d
+			$1 > 0$\\
 			$0 \leq 1$ e $0 \leq 1$ nos dá $0.1 \leq 1.1 = 1^2$, (OM)\\
 			Por (M3) $1.1 = 1$ com $1 \neq 0$\\
 			Logo temos $1^2 > 0$.
+			\item % S. 1.2 - Ex. 23 - e
+			$x > 0 \Leftrightarrow x^{-1} > 0$\\
+			Primeiramente temos:\\
+			$x > 0 \Rightarrow x^{-1}x > x^{-1}0 $ (OM)\\
+			$\Rightarrow x^{-1}x^{-1}x > x^{-1}x^{-1}0$ (OM)\\
+			$\Rightarrow x^{-1}(x^{-1}x) > x^{-1}x^{-1}0$ (M1)\\
+			$\Rightarrow x^{-1}1 >x^{-1}x^{-1}0$ (M4)\\
+			$\Rightarrow x^{-1} > (x^{-1}x^{-1})0$ (M1)\\
+			$\Rightarrow x^{-1} > (x^{-1}x^{-1})(z+(-z))$ (A4)\\
+			$\Rightarrow x^{-1} > (x^{-1}x^{-1})z + (x^{-1}x^{-1})(-z)$ (D)\\
+			$\Rightarrow x^{-1} > 0$  A4\\
+			Na direção contrária temos:\\
+			$x^{-1} > 0 \Rightarrow x.x^{-1} > x.0 $ (OM)\\
+			$\Rightarrow x.x.x^{-1} > x.x.0$ (OM)\\
+			$\Rightarrow x.(x.x^{-1}) > x.x.0$ (M1)\\
+			$\Rightarrow x.1 >x.x.0$ (M4)\\
+			$\Rightarrow x > (x.x)0$ (M1)\\
+			$\Rightarrow x > (x.x)(z+(-z))$ (A4)\\
+			$\Rightarrow x > (x.x)z + (x.x)(-z)$ (D)\\
+			$\Rightarrow x > 0$  (A4)
+			\item % S. 1.2 - Ex. 23 - f
+			$xy = 0 \Leftrightarrow x = 0$ ou $y = 0$
+			
+			\item % S. 1.2 - Ex. 23 - g
+			$x^2 = y^2 \Leftrightarrow x = y$ ou $x = -y$\\
+			$x^2 = y^2 \Leftrightarrow x^2 - y^2 = 0$\\
+			$\Leftrightarrow x^2 - y^2 + 0 = 0$\\
+			$\Leftrightarrow x^2 - y^2 + xy - xy = 0$\\
+			$\Leftrightarrow x^2 + xy - xy - y^2 = 0$\\
+			$\Leftrightarrow x(x + y) - y(x + y) = 0$\\
+			$\Leftrightarrow (x + y)(x - y) = 0$\\
+			$\Leftrightarrow x + y = 0$ ou $x - y = 0$\\
+			$\Leftrightarrow x = -y$ ou $x = y$
+			\item % S. 1.2 - Ex. 23 - h
+			$Se x \geq$ 0 e $y\geq 0$, $x^2 = y^2 \Leftrightarrow x = y$
 		\end{enumerate}
 \end{enumerate}
 \section{Módulo de um Número Real}
