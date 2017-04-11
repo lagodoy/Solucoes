@@ -719,7 +719,7 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 			$\Rightarrow x^{-1} > (x^{-1}x^{-1})0$ (M1)\\
 			$\Rightarrow x^{-1} > (x^{-1}x^{-1})(z+(-z))$ (A4)\\
 			$\Rightarrow x^{-1} > (x^{-1}x^{-1})z + (x^{-1}x^{-1})(-z)$ (D)\\
-			$\Rightarrow x^{-1} > 0$  A4\\
+			$\Rightarrow x^{-1} > 0$  (A4)\\
 			Na direção contrária temos:\\
 			$x^{-1} > 0 \Rightarrow x.x^{-1} > x.0 $ (OM)\\
 			$\Rightarrow x.x.x^{-1} > x.x.0$ (OM)\\
@@ -730,20 +730,32 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 			$\Rightarrow x > (x.x)z + (x.x)(-z)$ (D)\\
 			$\Rightarrow x > 0$  (A4)
 			\item % S. 1.2 - Ex. 23 - f
-			$xy = 0 \Leftrightarrow x = 0$ ou $y = 0$
-			
+			$xy = 0 \Leftrightarrow x = 0$ ou $y = 0$\\
+			Por a), qualquer número multiplicado por 0 resulta em 0, logo como $xy = 0$ e considerando, primeiramente, $x \neq 0$ e $x^{-1}x=1$ (M4):\\ 
+			$x^{-1}(xy) = (x^{-1}x)y =1 \cdot y = 0 \Leftrightarrow y = 0$, utilizando (M1) e (M4)\\
+			De forma similar chegamos à $x = 0$, com $y \neq 0$.\\
+			Finalmente quando $x = 0$ e $y = 0$, podemos fazer, de acordo com (A4), $x = z - z$   e $y = w - w$, daí temos:\\
+			$(z-z)(w-w) = (z-z)w-(z-z)w=zw-zw-(zw-zw)=0-0=0$, utilizando (D) e (A4).
 			\item % S. 1.2 - Ex. 23 - g
 			$x^2 = y^2 \Leftrightarrow x = y$ ou $x = -y$\\
-			$x^2 = y^2 \Leftrightarrow x^2 - y^2 = 0$\\
-			$\Leftrightarrow x^2 - y^2 + 0 = 0$\\
-			$\Leftrightarrow x^2 - y^2 + xy - xy = 0$\\
-			$\Leftrightarrow x^2 + xy - xy - y^2 = 0$\\
-			$\Leftrightarrow x(x + y) - y(x + y) = 0$\\
-			$\Leftrightarrow (x + y)(x - y) = 0$\\
-			$\Leftrightarrow x + y = 0$ ou $x - y = 0$\\
-			$\Leftrightarrow x = -y$ ou $x = y$
+			$x^2 = y^2 \Leftrightarrow x^2 - y^2 = 0$ (A4)\\ 
+			$\Leftrightarrow x^2 - y^2 + 0 = 0$ (A3) \\
+			$\Leftrightarrow x^2 - y^2 + xy - xy = 0$ (A4)\\ 
+			$\Leftrightarrow x^2 + xy - xy - y^2 = 0$(A2)\\ 
+			$\Leftrightarrow x(x + y) - y(x + y) = 0$ (D)\\ 
+			$\Leftrightarrow (x + y)(x - y) = 0$ (D)\\ 
+			$\Leftrightarrow x + y = 0$ ou $x - y = 0$, letra f) acima\\ 
+			$\Leftrightarrow x = -y$ ou $x = y$ (A4)
 			\item % S. 1.2 - Ex. 23 - h
-			$Se x \geq$ 0 e $y\geq 0$, $x^2 = y^2 \Leftrightarrow x = y$
+			$Se x \geq$ 0 e $y\geq 0$, $x^2 = y^2 \Leftrightarrow x = y$\\
+			$x^2 = y^2\Leftrightarrow x^2 - y^2 = 0$ (A4)\\
+			$\Leftrightarrow x^2 - y^2 + 0 = 0$ (A3)\\
+			$\Leftrightarrow x^2 - y^2 + xy - xy = 0$ (A4)\\
+			$\Leftrightarrow x^2 + xy - y^2 - xy = 0$ (A2)\\
+			$\Leftrightarrow x(x+y)-y(x+y)=0$(D)\\
+			$\Leftrightarrow (x-y)(x+y) = 0$ (D)\\
+			$\Leftrightarrow x - y = 0$ ou $x + y = 0$, letra f) acima. \\
+			Temos $x = -y$ impossível, pois viola a condição de $ x \geq 0 $, já $x = y$ é possível, pois ambos devem ser positivos.
 		\end{enumerate}
 \end{enumerate}
 \section{Módulo de um Número Real}
