@@ -786,9 +786,9 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 	\begin{enumerate}
 		\item % S. 1.3 - Ex. 2 - a
 		$\vert x \vert = 2$\\
-		$x = 2$ ou $x = - 2$.
+		$x = 2$ quando $x \geq 0$ ou $x = - 2$ quando $x < 0$.
 		\item % S. 1.3 - Ex. 2 - b
-		$\vert x + 1 \vert = 3$
+		$\vert x + 1 \vert = 3$\\
 		$x + 1 > 0 \Rightarrow x + 1 = 3 \Rightarrow x = 2$\\
 		$x + 1 \leq 0 \Rightarrow -(x + 1) = 3 \Rightarrow x + 1 = -3 \Rightarrow x = -4$.
 		\item % S. 1.3 - Ex. 2 - c
@@ -796,11 +796,20 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 		$2x - 1 > 0 \Rightarrow 2x - 1 = 1 \Rightarrow 2x = 2 \Rightarrow x = 1$\\
 		$2x - 1 \leq 0 \Rightarrow -(2x - 1) = 1 \Rightarrow 2x - 1 = -1 \Rightarrow 2x = 0 \Rightarrow x = 0$.	
 		\item % S. 1.3 - Ex. 2 - d
-		$\vert x - 2 \vert = -1$
+		$\vert x - 2 \vert = -1$\\
+		Não existe solução, pois o módulo de um número é sempre positivo.\\
+		Podemos verificar o que ocorre quando tentamos solucionar a equação:\\
+		Se $ x - 2 \geq 0$, temos $x - 2 = -1 \Rightarrow x = 1$, porém $x - 2 = 1 - 2 = -1 <  0$.\\
+		Se $ x - 2  < 0$, temos $-(x - 2) = -x + 2 = -1 \Rightarrow x = 3$, porém $3 - 2 = 1 > 0$.\\
+		Vemos então que existem contradições nos dois valores encontrados para $x$, logo não existe solução.
 		\item % S. 1.3 - Ex. 2 - e
-		$\vert2x + 3 \vert = 0$
+		$\vert2x + 3 \vert = 0$\\
+		Para $2x + 3 \geq 0$, temos $2x + 3 = 0 \Rightarrow 2x = -3 \Rightarrow x = \dfrac{-3}{2}$.\\
+		Para $2x + 3 < 0$, temos $-(2x + 3) = 0 \Rightarrow -2x - 3 = 0\Rightarrow -2x = 3 \Rightarrow x = \dfrac{-3}{2}$.
 		\item % S. 1.3 - Ex. 2 - f
-		$\vert x \vert = 2x + 1$
+		$\vert x \vert = 2x + 1$\\
+		Para $x \geq 0$, temos $x = 2x + 1 \Rightarrow x =-1$.\\
+		Para $x < 0$, temos $-x = 2x + 1 \Rightarrow 3x = -1 \Rightarrow x = \dfrac{-1}{3}$.
 	\end{enumerate}
 	\item % S. 1.3 - Ex. 3
 	\begin{enumerate}
