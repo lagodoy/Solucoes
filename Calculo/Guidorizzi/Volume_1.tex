@@ -847,23 +847,74 @@ Utilizamos nos exercícios a seguir o algoritmo de Briot-Ruffini.
 		$\vert x + 3 \vert > 1$\\
 		$\vert x + 3 \vert > 1 \Leftrightarrow \vert x + 3\vert^2 > 1^2  \Leftrightarrow (x+3)^2 > 1^2 \Leftrightarrow (x+3)^2 - 1^2 > 0 \Leftrightarrow$\\
 		$\Leftrightarrow [(x+3)-1][(x+3)+1]>0 \Leftrightarrow (x+2)(x+4)>0$\\
-		Para se obter $(x+2)(x+4)>0$, devemos ter as expressões $(x+2)$ e $(x+4)$ com mesmo sinal:
+		Para se obter $(x+2)(x+4)>0$, devemos ter as expressões $(x+2)$ e $(x+4)$ com mesmo sinal:\\
 		$x+2 < 0$ e $ x+4 < 0 $ nos dá $x < -2$ e $x < -4$, logo devemos ter $x < -4$\\
 		$x+2 > 0$ e $ x+4 > 0 $ nos dá $x > -2$ e $x > -4$, logo devemos ter $x > -2$\\
 		A solução é $x < -4$ ou $x > -2$
 		\item % S. 1.3 - Ex. 3 - i
-		$\vert 2x - 3 \vert > 3$
+		$\vert 2x - 3 \vert > 3$\\
+		$\vert 2x - 3 \vert > 3 \Leftrightarrow \vert 2x - 3 \vert^2 > 3^2 \Leftrightarrow (2x - 3)^2 > 3^2 \Leftrightarrow $\\
+		$\Leftrightarrow (2x - 3)^2 - 3^2 > 0 \Leftrightarrow (2x - 3 - 3)(2x - 3 + 3) >  0 \Leftrightarrow (2x-6)(2x) > 0$ \\
+		Para se obter  $(2x-6)(2x) > 0$, devemos ter as expressões  $(2x-6)$ e $2x$  com mesmo sinal:\\
+		$2x-6 < 0$ e $2x < 0$,  resulta em $x < 3$ e $x < 0$, logo deve-se ter $x < 0$.\\
+		$2x-6 > 0$ e $2x > 0$,  resulta em $x > 3$ e $x > 0$, logo deve-se ter $x > 3$.
 		\item % S. 1.3 - Ex. 3 - j
-		$\vert 2x - 1 \vert < x$
+		$\vert 2x - 1 \vert < x$\\
+		$\vert 2x - 1 \vert < x \Leftrightarrow \vert 2x - 1 \vert^2 < x^2 \Leftrightarrow ( 2x - 1 )^2 < x^2 \Leftrightarrow$\\
+		$\Leftrightarrow (2x-1)^2 - x^2 < 0 \Leftrightarrow (2x - 1 -x)(2x-1+x) < 0 \Leftrightarrow$\\
+		$\Leftrightarrow (x-1)(3x-1) < 0$
+		Para se obter  $(x-1)(3x-1) < 0$,as expressões $(x-1)$ e $(3x-1)$ devem ter sinais opostos:\\
+		$x-1 >0$ e $3x-1 <0$, resulta em $x > 1$ e $x < 1/3$, que não soluciona a inequação.\\
+		$x-1 <0$ e $3x-1 >0$, resulta em $x < 1$ e $x > 1/3$, que resulta no intervalo $\dfrac{1}{3}<x<1$.
 		\addtocounter{enumii}{1}
 		\item % S. 1.3 - Ex. 3 - l
-		$\vert x+ 1 \vert < \vert 2x - 1 \vert$
+		$\vert x+ 1 \vert < \vert 2x - 1 \vert$\\
+		$\vert x+ 1 \vert < \vert 2x - 1 \vert \Leftrightarrow \vert x+ 1 \vert^2 < \vert 2x - 1 \vert^2 \Leftrightarrow ( x + 1 )^2 < ( 2x - 1 )^2 \Leftrightarrow$\\ 
+		$\Leftrightarrow ( x + 1 )^2 - ( 2x - 1 )^2 < 0 \Leftrightarrow$\\
+		$\Leftrightarrow [( x + 1 ) - ( 2x - 1 )]\cdot[( x + 1 ) - ( 2x - 1 )] < 0 \Leftrightarrow$\\ 
+		$\Leftrightarrow (x + 1 -2x +1)(x+1+2x-1) \Leftrightarrow (-x+2)(3x)<0$.\\
+		Para se obter  $(-x+2)(3x)<0$,as expressões $(-x+2)$ e $3x$ devem ter sinais opostos:\\
+		$-x+2 < 0$ e $3x > 0$,  resulta em $x > 2$ e $x > 0$, logo deve-se ter $x > 2$.\\
+		$-x+2 > 0$ e $3x < 0$,  resulta em $x < 2$ e $x < 0$, logo deve-se ter $x < 0$.
 		\item % S. 1.3 - Ex. 3 - m
-		$\vert x - 1 \vert - \vert x + 2 \vert > x$
+		$\vert x - 1 \vert - \vert x + 2 \vert > x$\\
+		Neste caso é necessário avaliar quatro combinações com relação aos resultados dos módulos, de acordo com o sinal da expressão no módulo:
+		\begin{itemize}
+		\item
+		$x-1 > 0$ e $x +2 >0$, resulta em $x > 1$ e $x > -2$, logo tem-se essa combinação com $x > 1$\\
+		$x-1-x+2>x \Leftrightarrow 1>x \Leftrightarrow x <1$
+		\item
+		$x-1 > 0$ e $x +2 <0$, resulta em $x > 1$ e $x < -2$, que não é possível.
+		\item
+		$x-1 < 0$ e $x +2 >0$, resulta em $x < 1$ e $x > -2$, logo tem-se essa combinação com $-2 < x < 1$\\
+		$-(x-1) -(x + 2) >x \Leftrightarrow -x+1 - x -2 >x \Leftrightarrow  -2x-1>x \Leftrightarrow x -1 > 3x \Leftrightarrow x < \dfrac{-1}{3}$
+		\item
+		$x-1 < 0$ e $x +2 <0$, resulta em $x < 1$ e $x < -2$, logo tem-se essa combinação com $x < -2$\\
+		$-(x-1) -[-(x+2)] >x \Leftrightarrow -x + 1 +x + 2 > x \Leftrightarrow 3 >x \Leftrightarrow x < 3$.
+		\end{itemize}
+		Finalmente, dos resultados acima, chega-se ao resultado $x < \dfrac{-1}{3}$
 		\item % S. 1.3 - Ex. 3 - n
-		$\vert x - 3 \vert < x + 1$
+		$\vert x - 3 \vert < x + 1$\\
+		$\vert x - 3 \vert < x + 1 \Leftrightarrow \vert x - 3 \vert^2 < (x + 1)^2 \Leftrightarrow (x - 3)^2 < (x + 1)^2 \Leftrightarrow$\\
+		$\Leftrightarrow (x - 3)^2 - (x + 1)^2 < 0 \Leftrightarrow [(x - 3) - (x + 1)]\cdot[(x - 3) + (x + 1)] < 0\Leftrightarrow$\\
+		$\Leftrightarrow (x - 3 - x - 1)(x - 3 + x + 1) < 0 \Leftrightarrow -4(2x - 2) < 0 \Leftrightarrow -(2x - 2) < 0 \Leftrightarrow$\\
+		$\Leftrightarrow -2x + 2 < 0 \Leftrightarrow -2x < - 2 \Leftrightarrow x > 1$.
 		\item % S. 1.3 - Ex. 3 - o
-		$\vert x - 2 \vert + \vert x-1 \vert > 1$
+		$\vert x - 2 \vert + \vert x-1 \vert > 1$\\
+		Quando $x - 2 < 0 \Rightarrow x < 2$, $\vert x - 2 \vert = -x+2$. Já caso $x - 2 \geq 0 \Rightarrow x \geq 2$,  $\vert x - 2 \vert = x - 2$.\\ 
+		 Quando $x-1<0 \Rightarrow x < 1$, $\vert x-1 \vert = -x + 1$. Já caso $x-1 \geq 0 \Rightarrow x \geq 1$, $\vert x - 1 \vert = x - 1$.
+		 \begin{itemize}
+		 \item 
+		 Quando $x -2 < 0$ e $x - 1 < 0$, $x < 1$, tem-se:\\
+		 $-x + 2 - x - 1 > 1 \Leftrightarrow -2x +1 > 1 \Leftrightarrow x < 0$
+		 \item
+		 Quando $x - 2 < 0$ e $x -1 \geq 0$, $1 \leq x < 2$.\\
+		 $-x + 2 + x -1 = 1 > 1$. Sem solução nesse caso.
+		 \item
+		 Quando $x - 2 \geq 0$ e $x - 1 \geq 0$, $x \geq 2$, tem-se:\\
+		 $x-2+x-1>1 \Leftrightarrow 2x-3 > 1 \Leftrightarrow 2x > 4 \Leftrightarrow x > 2$.
+		 \end{itemize}
+ 		 A solução da inequação é $x<1$ ou  $x>2$.
 	\end{enumerate}
 	\item 
 		Dado $r > 0$, provar: \\
