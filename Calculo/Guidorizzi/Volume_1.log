@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.14)  27 APR 2017 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.14)  5 MAY 2017 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -890,12 +890,7 @@ Overfull \hbox (1.61166pt too wide) in paragraph at lines 799--806
 a equa^^Xc~ao: 
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 823--828
-
- []
-
-[26] [27]
+[25] [26] [27]
 Overfull \hbox (3.52837pt too wide) in paragraph at lines 880--882
 \OT1/cmr/m/n/10 re-sul-ta-dos dos m^^Sodulos, de acordo com o sinal da ex-press
 ~ao no m^^Sodulo: 
@@ -911,7 +906,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 951--960
 
  []
 
-[30] (./Volume_1.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 969--977
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \hbox (badness 10000) in paragraph at lines 986--996
+
+ []
+
+[31] (./Volume_1.aux) ) 
 Here is how much of TeX's memory you used:
  3585 strings out of 494888
  49422 string characters out of 6179127
@@ -933,10 +941,10 @@ type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
-Output written on Volume_1.pdf (30 pages, 179083 bytes).
+Output written on Volume_1.pdf (31 pages, 180807 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 157 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
