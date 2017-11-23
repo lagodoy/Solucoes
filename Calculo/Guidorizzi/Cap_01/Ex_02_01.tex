@@ -157,6 +157,31 @@
 		\end{equation*}		
 	\end{enumerate}
 \item % S. 2.1 - Ex. 4
+	\begin{enumerate}
+		\addtocounter{enumii}{9}
+		\item % S. 2.1 - Ex. 4 - j
+		\begin{equation*}
+		    	g(x) =
+			    \begin{cases}
+			      \hfill x, & \text{se}\ x \leq 2 \\
+			      \hfil 3, & \text{se}\ x > 2 \\
+		    	\end{cases}
+		\end{equation*}
+		$D_g = \mathbb{R}$\\
+		\begin{tikzpicture}
+      		\draw[->] (-2.5,0) -- (2.5,0) node[right] {$x$};
+      		\draw[->] (0,-2.5) -- (0,2.5) node[above] {$y$};
+      		\draw[dashed] (1,0) -- (1,1) node[below] {$2$};
+      		\path[draw=red]  (0,0) -- (1,1) -- (2,1);
+      		\draw[scale=0.5,domain=-4:2,smooth,variable=\x,black] plot ({\x},{\x});
+      		\draw[scale=0.5,domain=2.1:4,smooth,variable=\x,black] plot ({\x},{3});
+      		\fill (1,1) circle (0.07cm);
+      		%\fill (1,1.5) circle (0.07cm);
+      		%\fill[white] (1,1.5) circle (0.04cm);
+      		\draw[clip] (1,1.5) circle (0.07cm);
+      		%\draw[scale=0.5,domain=-3:3,smooth,variable=\y,red]  plot ({\y*\y},{\y});
+    	\end{tikzpicture}
+	\end{enumerate}
 \item % S. 2.1 - Ex. 5
 \item % S. 2.1 - Ex. 6
 \item % S. 2.1 - Ex. 7
