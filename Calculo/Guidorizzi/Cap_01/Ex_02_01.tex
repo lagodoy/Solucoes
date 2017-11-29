@@ -164,25 +164,99 @@
 		    	g(x) =
 			    \begin{cases}
 			      \hfill x, & \text{se}\ x \leq 2 \\
-			      \hfil 3, & \text{se}\ x > 2 \\
+			      \hfill 3, & \text{se}\ x > 2 \\
 		    	\end{cases}
 		\end{equation*}
 		$D_g = \mathbb{R}$\\
-		\begin{tikzpicture}
-      		\draw[->] (-2.5,0) -- (2.5,0) node[right] {$x$};
-      		\draw[->] (0,-2.5) -- (0,2.5) node[above] {$y$};
-      		\draw[dashed] (1,0) -- (1,1) node[below] {$2$};
-      		\path[draw=red]  (0,0) -- (1,1) -- (2,1);
-      		\draw[scale=0.5,domain=-4:2,smooth,variable=\x,black] plot ({\x},{\x});
-      		\draw[scale=0.5,domain=2.1:4,smooth,variable=\x,black] plot ({\x},{3});
-      		\fill (1,1) circle (0.07cm);
-      		%\fill (1,1.5) circle (0.07cm);
-      		%\fill[white] (1,1.5) circle (0.04cm);
-      		\draw[clip] (1,1.5) circle (0.07cm);
-      		%\draw[scale=0.5,domain=-3:3,smooth,variable=\y,red]  plot ({\y*\y},{\y});
-    	\end{tikzpicture}
+%		\begin{tikzpicture}
+%      		\draw[->] (-2.5,0) -- (2.5,0) node[right] {$x$};
+%      		\draw[->] (0,-2.5) -- (0,2.5) node[above] {$y$};
+%      		\draw[dashed] (1,0) -- (1,1) node[below] {$2$};
+%
+%      		%\path[draw=red]  (0,0) -- (1,1) -- (2,1);
+%     		\draw[scale=0.5,domain=-4:2,smooth,variable=\x,black] plot ({\x},{\x});
+%      		\draw[scale=0.5,domain=2.1:4,smooth,variable=\x,black] plot ({\x},{3});
+%      		\fill (1,1) circle (0.07cm);
+%      		%\fill (1,1.5) circle (0.07cm);
+%      		%\fill[white] (1,1.5) circle (0.04cm);
+%      		\draw[clip] (1,1.5) circle (0.07cm);
+%      		%\draw[scale=0.5,domain=-3:3,smooth,variable=\y,red]  plot ({\y*\y},{\y});
+%    	\end{tikzpicture}
+    	
+		\begin{tikzpicture}[>=latex]
+			\begin{axis}[
+		  		axis x line=center,
+		  		axis y line=center,
+		  		%xtick={-4,...,4},
+		  		xtick={2},
+		  		%ytick={-4,...,4},
+		  		ytick={2,3},
+		  		%yticklabels={-A$\flat$, -A, -B$\flat$, -B, -C, C, C$\sharp$, D, D$\sharp$, E},
+			  	xlabel={$x$},
+			  	ylabel={$y$},
+			  	xlabel style={below right},
+			  	ylabel style={above left},
+			  	xmin=-4.5,
+			  	xmax=4.5,
+				ymin=-4.5,
+		  		ymax=4.5]
+			\addplot [mark=none,domain=-3:2] {x};		
+			\addplot [mark=none,domain=2.1:4] {3};
+			\end{axis}
+			%\draw[clip] (650,750) circle (0.07cm);
+			\draw[dashed] (4.953,2.8) -- (4.953,4.12) -- (3.35,4.115);
+			\fill (4.95,4.1) circle (0.07cm);
+			\draw[clip] (4.95,4.74) circle (0.07cm);
+		\end{tikzpicture}
+		
+	\addtocounter{enumii}{1}
+	
+	\item % S. 2.1 - Ex. 4 - l
+		\begin{equation*}
+		    	f(x) =
+			    \begin{cases}
+			      \hfill 2x, & \text{se}\ x \leq -1 \\
+			      \hfill -x+1, & \text{se}\ x > -1 \\
+		    	\end{cases}
+		\end{equation*}
+	\item % S. 2.1 - Ex. 4 - m
+		\begin{equation*}
+		    	h(x) = \vert x - 1 \vert
+		\end{equation*}	
+		
+	\item % S. 2.1 - Ex. 4 - n
+		\begin{equation*}
+		    	f(x) = \vert x + 2 \vert
+		\end{equation*}	
+		
+	\item % S. 2.1 - Ex. 4 - o
+		\begin{equation*}
+		    	h(x) = \dfrac{x^2-1}{x-1}
+		\end{equation*}	
+		
+	\item % S. 2.1 - Ex. 4 - p
+		\begin{equation*}
+		    	g(x) = \dfrac{x^2-2x+1}{x-1}
+		\end{equation*}	
+		
+	\item % S. 2.1 - Ex. 4 - q
+		\begin{equation*}
+		    	g(x) = \dfrac{\vert x \vert}{x}
+		\end{equation*}	
+		
+	\item % S. 2.1 - Ex. 4 - r
+		\begin{equation*}
+		    	g(x) =\dfrac{\vert x - 1 \vert}{x-1}
+		\end{equation*}	
+		
+	\item % S. 2.1 - Ex. 4 - s
+		\begin{equation*}
+		    	f(x) =\dfrac{\vert 2x + 1 \vert}{2x + 1}
+		\end{equation*}		
+														    	
 	\end{enumerate}
 \item % S. 2.1 - Ex. 5
+
 \item % S. 2.1 - Ex. 6
 \item % S. 2.1 - Ex. 7
 \item % S. 2.1 - Ex. 8
