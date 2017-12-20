@@ -633,11 +633,118 @@
 	\begin{enumerate}
 		\addtocounter{enumii}{4}
 		\item % S. 2.1 - Ex. 7 - e
+		$f(x)=x+3$\\
+		\begin{tikzpicture}[>=latex]
+			\begin{axis}[
+		  		axis x line=center,
+		  		axis y line=center,
+		  		xtick={-3},
+		  		xticklabels={$-3$},
+		  		xticklabel style={below},
+		  		ytick={3},
+		  		yticklabel style={right},
+		  		yticklabels={\phantom{2}3},
+			  	xlabel={$x$},
+			  	ylabel={$y$},
+			  	xlabel style={below right},
+			  	ylabel style={above left},
+			  	xmin=-4.5,
+			  	xmax=2.5,
+				ymin=-1.5,
+		  		ymax=4.5]
+			\addplot [mark=none,domain=-4:1] {x+3};
+			\end{axis}
+		\end{tikzpicture}\\	
+		$f(x)>0$ se $x>-3$, $f(x) = 0$ se $x = -3$, $f(x) < 0$ se $x < -3$.
 		\item % S. 2.1 - Ex. 7 - f
+		$f(x)=-8x+1$\\
+		\begin{tikzpicture}[>=latex]
+			\begin{axis}[
+		  		axis x line=center,
+		  		axis y line=center,
+		  		xtick={0.125},
+		  		xticklabels={$\dfrac{1}{8}$\phantom{1}},
+		  		xticklabel style={below},
+		  		ytick={1},
+		  		yticklabel style={right},
+		  		yticklabels={\phantom{2}1},
+		  		%yticklabels={-A$\flat$, -A, -B$\flat$, -B, -C, C, C$\sharp$, D, D$\sharp$, E},
+			  	xlabel={$x$},
+			  	ylabel={$y$},
+			  	xlabel style={below right},
+			  	ylabel style={above left},
+			  	xmin=-1.5,
+			  	xmax=1.5,
+				ymin=-4.5,
+		  		ymax=4.5]
+			\addplot [mark=none,domain=-0.375:0.625] {-8*x+1};
+			\end{axis}
+		\end{tikzpicture}\\
+		 $f(x)>0$ se $x < \dfrac{1}{8}$, $f(x)=0$ se $x = \dfrac{1}{8}$, $f(x)<0$ se $x>\dfrac{1}{8}$.
 		\item % S. 2.1 - Ex. 7 - g
+		$f(x)=ax+b$ $(a>0)$\\
+		\begin{tikzpicture}[>=latex]
+			\begin{axis}[
+		  		axis x line=center,
+		  		axis y line=center,
+		  		%xtick={-4,...,4},
+		  		xtick={-0.5},
+		  		xticklabels={$-\dfrac{b}{a}$},
+		  		xticklabel style={below},
+		  		ytick={1},
+		  		yticklabel style={right},
+		  		yticklabels={\phantom{2}b},
+			  	xlabel={$x$},
+			  	ylabel={$y$},
+			  	xlabel style={below right},
+			  	ylabel style={above left},
+			  	xmin=-4.5,
+			  	xmax=4.5,
+				ymin=-4.5,
+		  		ymax=4.5]
+			\addplot [mark=none,domain=-3:3] {2*x+1};%ax+b, a>0
+			\end{axis}
+		\end{tikzpicture}\\
+		 $f(x) > 0$ se $x > -\dfrac{b}{a}$, $f(x)=0$ se $x = -\dfrac{b}{a}$ e $f(x) <0$ se $x < -\dfrac{b}{a}$.
 		\item % S. 2.1 - Ex. 7 - h
+		$f(x)=ax+b$ $(a<0)$\\
+		\begin{tikzpicture}[>=latex]
+			\begin{axis}[
+		  		axis x line=center,
+		  		axis y line=center,
+		  		%xtick={-4,...,4},
+		  		xtick={0.5},
+		  		xticklabels={$-\dfrac{b}{a}$},
+		  		xticklabel style={below},
+		  		ytick={1},
+		  		yticklabel style={right},
+		  		yticklabels={\phantom{2}b},
+		  		%ytick={-4,...,4},
+		  		%yticklabels={-A$\flat$, -A, -B$\flat$, -B, -C, C, C$\sharp$, D, D$\sharp$, E},
+			  	xlabel={$x$},
+			  	ylabel={$y$},
+			  	xlabel style={below right},
+			  	ylabel style={above left},
+			  	xmin=-4.5,
+			  	xmax=4.5,
+				ymin=-4.5,
+		  		ymax=4.5]
+			\addplot [mark=none,domain=-1.5:2] {-2*x+1};%ax+b, a<0
+			\end{axis}
+		\end{tikzpicture}\\
+		$f(x) >0$ se $x < -\dfrac{b}{a}$, $f(x)=0$ se $x = -\dfrac{b}{a}$ e $f(x) < 0$ se $x > -\dfrac{b}{a}$
 	\end{enumerate}
 \item % S. 2.1 - Ex. 8
+	\begin{enumerate}
+		\addtocounter{enumii}{6}
+		\item % S. 2.1 - Ex. 8 - g
+		\item % S. 2.1 - Ex. 8 - h
+		\item % S. 2.1 - Ex. 8 - i
+		\item % S. 2.1 - Ex. 8 - j
+		\addtocounter{enumii}{1}
+		\item % S. 2.1 - Ex. 8 - l
+		\item % S. 2.1 - Ex. 8 - m
+		\end{enumerate}
 \item % S. 2.1 - Ex. 9
 \item % S. 2.1 - Ex. 10
 \item % S. 2.1 - Ex. 11
